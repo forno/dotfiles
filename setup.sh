@@ -1,7 +1,18 @@
 #!/bin/sh
 
-DOT_FILES=`echo .* | tr ' ' '\n' | grep -vE '\.$' | grep -vE '^.git$' | tr '\n' ' '`
+filter_out_ignore(){
+  while read line
+  do 
+    [ "$line" = '.' ] ||
+    [ "$line" = '..' ] ||
+    [ "$line" = '.git' ] ||
+    [ "$line" = '.gitignore' ] &&
+      continue
+    echo $line
+  done
+}
 
+DOT_FILES=`echo .* | tr ' ' '\n' | filter_out_ignore | tr '\n' ' '`
 echo "List of targets: $DOT_FILES"
 echo "When link file, I say put."
 
