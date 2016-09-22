@@ -9,7 +9,7 @@ do
   echo "try link $file"
   if [ -e $HOME/$file ]; then
     if [ -L $HOME/$file ]; then
-      echo "found file on HOME: $file"
+      echo "found symbolick link on HOME: $file"
       continue
     fi
     if [ -d $HOME/$file ]; then
