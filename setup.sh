@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DOT_FILES=".vimrc .bashrc"
+DOT_FILES=".vimrc .bashrc .gitconfig"
 
 echo "When link file, I say put."
 

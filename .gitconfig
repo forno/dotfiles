@@ -1,0 +1,22 @@
+[user]
+	email = o111027y@mail.kyutech.jp
+	name = Doi Yusuke
+[alias]
+	aa = add -A
+	c = commit
+	ca = commit -a
+	co = checkout
+	cob = checkout -b
+	st = status
+	graph = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
+	gr = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
+[core]
+	editor = vi
+[merge]
+	ff = false
+[push]
+	default = simple
+[pull]
+	rebase = true
+[color]
+	ui = auto
