@@ -1,7 +1,8 @@
 #!/bin/sh
 
-DOT_FILES=".vimrc .bashrc .gitconfig"
+DOT_FILES=`echo .* | tr ' ' '\n' | grep -vE '\.$' | grep -vE '^.git$' | tr '\n' ' '`
 
+echo "List of targets: $DOT_FILES"
 echo "When link file, I say put."
 
 for file in $DOT_FILES
