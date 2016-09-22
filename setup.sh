@@ -22,3 +22,4 @@ do
   ln -s $HOME/dotfiles/$file $HOME/$file
   echo "put symbolic link: $file"
 done
+

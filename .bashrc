@@ -140,3 +140,4 @@ alias cdcatkin='cd ${ROS_CATKIN_WS}'
 alias cdc='cd ${ROS_CATKIN_WS}'
 alias tf2='cd /var/tmp && rosrun tf2_tools view_frames.py && evince frames.pdf; cd -'
 alias cm='cd ${ROS_CATKIN_WS} && source ${ROS_REQUIRE_FILE} && catkin_make; cd -'
+
