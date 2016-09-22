@@ -10,7 +10,7 @@
 	co = checkout
 	cob = checkout -b
 	d = diff
-	dc = diff --cashed
+	dc = diff --cached
 	gr = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
 	graph = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
 	s = status
