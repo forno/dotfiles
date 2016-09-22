@@ -6,7 +6,6 @@ echo "When link file, I say put."
 
 for file in $DOT_FILES
 do
-  echo "try link $file"
   if [ -e $HOME/$file ]; then
     if [ -L $HOME/$file ]; then
       echo "found symbolick link on HOME: $file"
