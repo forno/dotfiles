@@ -16,6 +16,7 @@
 	s = status
 	sh = show
 	st = stash
+	unstage = reset HEAD --
 [color]
 	ui = auto
 [core]
