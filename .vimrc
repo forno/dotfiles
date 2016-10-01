@@ -14,6 +14,7 @@ endif
 set autoindent
 set smartindent
 "
+"Ctrl-j to esc
 noremap <C-j> <esc>
 noremap! <C-j> <esc>
 
