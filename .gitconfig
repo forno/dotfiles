@@ -4,7 +4,7 @@
 [alias]
 	a = add
 	aa = add -A
-  ap = add -p
+	ap = add -p
 	au = add -u
 	br = branch
 	c = commit
@@ -34,6 +34,5 @@
 	rebase = true
 [push]
 	default = simple
-
 [rerere]
 	enabled = true
