@@ -121,8 +121,8 @@ fi
 alias sl='ls'
 alias ks='ls'
 alias chrome='google-chrome-stable'
-alias cdws='cd ~/ws'
 alias cdw='cd ~/ws'
+alias cdp='cd ~/ws/program'
 alias cdt='cd ~/ws/program/test'
 alias openpdf='evince'
 # set environment variable
