@@ -1,3 +1,4 @@
+syntax on
 set nu
 "
 "tab view setting
