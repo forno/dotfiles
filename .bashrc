@@ -127,3 +127,6 @@ alias cdt='cd ~/ws/program/test'
 alias openpdf='evince'
 # set environment variable
 export EDITOR='vi'
+
+# original shell script
+alias srcd='. /usr/local/bin/srcd.sh';
