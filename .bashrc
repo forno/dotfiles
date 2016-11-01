@@ -129,9 +129,9 @@ alias openpdf='evince'
 export EDITOR='vi'
 
 # for ros system
-ROS_CATKIN_WS="${HOME}/ws/ros/arcsys2"
+#ROS_CATKIN_WS="${HOME}/ws/ros/arcsys2"
 #ROS_CATKIN_WS="${HOME}/ws/ros/ws"
-#ROS_CATKIN_WS="${HOME}/ws/ros/fifth_robot_pkg"
+ROS_CATKIN_WS="${HOME}/ws/ros/fifth_robot_pkg"
 
 ROS_REQUIRE_FILE="${ROS_CATKIN_WS}/devel/setup.bash"
 source /opt/ros/kinetic/setup.bash
@@ -142,4 +142,4 @@ alias tf2='cd /var/tmp && rosrun tf2_tools view_frames.py && evince frames.pdf; 
 alias cm='cd ${ROS_CATKIN_WS} && source ${ROS_REQUIRE_FILE} && catkin_make; cd -'
 
 # original shell script
-alias srcd='. /usr/local/bin/srcd.sh';
+alias srcd='cd `oversrc`';
