@@ -11,6 +11,7 @@
 	ca = commit -a
 	co = checkout
 	cob = checkout -b
+	cop = checkout -p --
 	d = diff
 	dc = diff --cached
 	dch = diff --check
