@@ -7,10 +7,13 @@
 	ap = add -p
 	au = add -u
 	b = branch
+	ba = branch -a
+	bd = branch -d
 	c = commit
 	ca = commit -a
 	co = checkout
 	cob = checkout -b
+	cop = checkout -p --
 	d = diff
 	dc = diff --cached
 	dch = diff --check
