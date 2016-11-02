@@ -7,6 +7,8 @@
 	ap = add -p
 	au = add -u
 	b = branch
+	ba = branch -a
+	bd = branch -d
 	c = commit
 	ca = commit -a
 	co = checkout
