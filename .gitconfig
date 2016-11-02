@@ -6,7 +6,7 @@
 	aa = add -A
 	ap = add -p
 	au = add -u
-	br = branch
+	b = branch
 	c = commit
 	ca = commit -a
 	co = checkout
