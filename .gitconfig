@@ -9,8 +9,8 @@
 	b = branch
 	ba = branch -a
 	bd = branch -d
-	c = commit
-	ca = commit -a
+	c = commit -v
+	ca = commit -a -v
 	co = checkout
 	cob = checkout -b
 	cop = checkout -p --
