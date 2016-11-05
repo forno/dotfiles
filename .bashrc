@@ -118,25 +118,25 @@ fi
 
 # add my setting
 # some alias
-alias sl='ls'
-alias ks='ls'
-alias chrome='google-chrome-stable'
 alias cdw='cd ~/ws'
 alias cdp='cd ~/ws/prog'
+alias cdl='cd ~/ws/prog/xmaho'
 alias cdt='cd ~/ws/prog/test'
+alias ks='ls'
+alias sl='ls'
 alias openpdf='evince'
+alias chrome='google-chrome-stable'
 # set environment variable
 export EDITOR='vi'
 
 # for ros system
-#ROS_CATKIN_WS="${HOME}/ws/ros/arcsys2"
+ROS_CATKIN_WS="${HOME}/ws/ros/arcsys2"
 #ROS_CATKIN_WS="${HOME}/ws/ros/ws"
-ROS_CATKIN_WS="${HOME}/ws/ros/fifth_robot_pkg"
+#ROS_CATKIN_WS="${HOME}/ws/ros/fifth_robot_pkg"
 
 ROS_REQUIRE_FILE="${ROS_CATKIN_WS}/devel/setup.bash"
 source /opt/ros/kinetic/setup.bash
 source ${ROS_REQUIRE_FILE}
-alias cdcatkin='cd ${ROS_CATKIN_WS}'
 alias cdc='cd ${ROS_CATKIN_WS}'
 alias tf2='cd /var/tmp && rosrun tf2_tools view_frames.py && evince frames.pdf; cd -'
 alias cm='cd ${ROS_CATKIN_WS} && source ${ROS_REQUIRE_FILE} && catkin_make; cd -'
