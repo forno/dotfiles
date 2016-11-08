@@ -118,13 +118,14 @@ fi
 
 # add my setting
 # some alias
-alias sl='ls'
-alias ks='ls'
-alias chrome='google-chrome-stable'
 alias cdw='cd ~/ws'
 alias cdp='cd ~/ws/prog'
+alias cdl='cd ~/ws/prog/xmaho'
 alias cdt='cd ~/ws/prog/test'
+alias ks='ls'
+alias sl='ls'
 alias openpdf='evince'
+alias chrome='google-chrome-stable'
 # set environment variable
 export EDITOR='vi'
 # original shell script

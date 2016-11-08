@@ -1,5 +1,6 @@
 syntax on
-set nu
+set number
+set cursorline
 "
 "tab view setting
 set tabstop=2
@@ -18,4 +19,6 @@ set smartindent
 "Ctrl-j to esc
 noremap <C-j> <esc>
 noremap! <C-j> <esc>
-
+"
+"gui setting
+set mouse=a
