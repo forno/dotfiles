@@ -21,4 +21,4 @@ noremap <C-j> <esc>
 noremap! <C-j> <esc>
 "
 "gui setting
-set mouse=a
+"set mouse=a
