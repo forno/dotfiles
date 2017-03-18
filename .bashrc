@@ -123,6 +123,7 @@ alias cdp='cd ~/ws/prog'
 alias cdl='cd ~/ws/prog/xmaho'
 alias cdt='cd ~/ws/prog/test'
 alias cdr='cd ~/ws/ros'
+alias cdm='cd ~/ws/memo'
 alias ks='ls'
 alias sl='ls'
 alias openpdf='evince'
@@ -131,7 +132,8 @@ alias chrome='google-chrome-stable'
 export EDITOR='vi'
 
 # for ros system
-ROS_CATKIN_WS="${HOME}/ws/ros/ws"
+#ROS_CATKIN_WS="${HOME}/ws/ros/ws"
+ROS_CATKIN_WS="${HOME}/ws/ros/cirkit_unit03_catkin_tester"
 #ROS_CATKIN_WS="${HOME}/ws/ros/arcsys2"
 #ROS_CATKIN_WS="${HOME}/ws/ros/fifth_robot_pkg"
 
