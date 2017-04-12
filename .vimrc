@@ -18,9 +18,3 @@ set smartindent
 " paste setting
 set pastetoggle=<F2>
 "
-"Ctrl-j to esc
-noremap <C-j> <esc>
-noremap! <C-j> <esc>
-"
-"gui setting
-"set mouse=a
