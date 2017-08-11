@@ -142,4 +142,8 @@ alias tf2='cd /var/tmp && rosrun tf2_tools view_frames.py && evince frames.pdf; 
 alias cm='cd ${ROS_CATKIN_WS} && source ${ROS_REQUIRE_FILE} && catkin_make; cd -'
 
 # original shell script
-alias srcd='cd `oversrc`';
+alias srcd='cd `oversrc`'
+
+# compiler setting
+export CXX='clang++-4.0'
+export CC='clang-4.0'
