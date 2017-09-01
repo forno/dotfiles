@@ -145,5 +145,5 @@ alias cm='cd ${ROS_CATKIN_WS} && source ${ROS_REQUIRE_FILE} && catkin_make; cd -
 alias srcd='cd `oversrc`'
 
 # compiler setting
-export CXX='clang++-4.0'
-export CC='clang-4.0'
+export CXX='g++-7'
+export CC='gcc-7'
