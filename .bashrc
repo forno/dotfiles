@@ -147,3 +147,4 @@ alias srcd='cd `oversrc`'
 # compiler setting
 export CXX='g++-7'
 export CC='gcc-7'
+export CMAKE_ROOT=/usr/local/share/cmake-3.9
