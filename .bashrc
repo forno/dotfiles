@@ -144,6 +144,6 @@ alias cm='cd ${ROS_CATKIN_WS} && source ${ROS_REQUIRE_FILE} && catkin_make; cd -
 alias srcd='cd `oversrc`'
 
 # compiler setting
-export CXX='g++-7'
-export CC='gcc-7'
+export CXX='clang++'
+export CC='clang'
 export CMAKE_ROOT='/usr/local/share/cmake-3.9'
