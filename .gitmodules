@@ -1,0 +1,3 @@
+[submodule ".vim/pack/syntax/start/vim-cmake-syntax"]
+	path = .vim/pack/syntax/start/vim-cmake-syntax
+	url = git@github.com:pboettch/vim-cmake-syntax.git
