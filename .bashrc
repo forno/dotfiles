@@ -119,11 +119,12 @@ fi
 # add my setting
 # some alias
 alias cdw='cd ~/ws'
+alias cdi='cd ~/ws/install'
+alias cdm='cd ~/ws/memo'
 alias cdp='cd ~/ws/prog'
 alias cdl='cd ~/ws/prog/xmaho'
 alias cdt='cd ~/ws/prog/test'
 alias cdr='cd ~/ws/ros'
-alias cdm='cd ~/ws/memo'
 alias ks='ls'
 alias sl='ls'
 alias chrome='google-chrome-stable'
