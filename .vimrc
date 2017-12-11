@@ -15,6 +15,10 @@ endif
 "auto indent
 set autoindent
 set smartindent
-" paste setting
+"paste setting
 set pastetoggle=<F2>
-"
+"clipboard collaboration
+set clipboard&
+set clipboard^=unnamedplus
+"backspace feature
+set backspace=indent,eol,start

@@ -6,7 +6,8 @@ filter_out_ignore(){
     [ "$line" = '.' ] ||
     [ "$line" = '..' ] ||
     [ "$line" = '.git' ] ||
-    [ "$line" = '.gitignore' ] &&
+    [ "$line" = '.gitignore' ] ||
+    [ "$line" = '.gitmodules' ] &&
       continue
     echo $line
   done
