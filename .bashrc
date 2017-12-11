@@ -149,3 +149,4 @@ export CXX='clang++'
 export CC='clang'
 
 [ -r $HOME/.byobu/prompt ] && . $HOME/.byobu/prompt   #byobu-prompt#
+export GPG_TTY=$(tty)
