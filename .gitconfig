@@ -46,3 +46,7 @@
 	program = gpg2
 [commit]
 	gpgSign = true
+[log]
+	showSignature = true
+[tag]
+	forceSignAnnotated = true
