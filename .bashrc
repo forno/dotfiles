@@ -136,4 +136,3 @@ alias srcd='cd `oversrc`'
 # compiler setting
 export CXX='clang++'
 export CC='clang'
-export CMAKE_ROOT='/usr/local/share/cmake-3.9'
