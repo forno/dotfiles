@@ -43,3 +43,5 @@
 	enabled = true
 [gpg]
 	program = gpg2
+[commit]
+	gpgSign = true
