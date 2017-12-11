@@ -39,6 +39,7 @@
 	rebase = true
 [push]
 	default = simple
+	gpgSign = if-asked
 [rerere]
 	enabled = true
 [gpg]
