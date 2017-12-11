@@ -40,3 +40,5 @@
 	default = simple
 [rerere]
 	enabled = true
+[gpg]
+	program = gpg2
