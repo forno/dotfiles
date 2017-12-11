@@ -148,4 +148,4 @@ alias srcd='cd `oversrc`'
 export CXX='clang++'
 export CC='clang'
 
-[ -r /home/doi/.byobu/prompt ] && . /home/doi/.byobu/prompt   #byobu-prompt#
+[ -r $HOME/.byobu/prompt ] && . $HOME/.byobu/prompt   #byobu-prompt#
