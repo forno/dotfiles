@@ -118,13 +118,16 @@ fi
 
 # add my setting
 # some alias
+alias cdf='cd ~/ws/prog/forno'
 alias cdw='cd ~/ws'
 alias cdi='cd ~/ws/install'
 alias cdm='cd ~/ws/memo'
 alias cdp='cd ~/ws/prog'
 alias cdl='cd ~/ws/prog/xmaho'
+alias cds='cd ~/ws/website'
 alias cdt='cd ~/ws/prog/test'
 alias cdr='cd ~/ws/ros'
+alias cdx='cd ~/ws/prog/xmaho'
 alias ks='ls'
 alias sl='ls'
 alias chrome='google-chrome-stable'
@@ -138,3 +141,4 @@ export CXX='clang++'
 export CC='clang'
 
 [ -r $HOME/.byobu/prompt ] && . $HOME/.byobu/prompt   #byobu-prompt#
+export GPG_TTY=$(tty)

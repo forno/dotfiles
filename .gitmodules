@@ -1,3 +1,9 @@
-[submodule ".vim/pack/syntax/start/vim-cmake-syntax"]
+[submodule ".vim/pack/cmake/start/vim-cmake-syntax"]
 	path = .vim/pack/cmake/start/vim-cmake-syntax
-	url = git@github.com:pboettch/vim-cmake-syntax.git
+	url = https://github.com/pboettch/vim-cmake-syntax.git
+[submodule ".vim/pack/ros/start/vim-ros"]
+	path = .vim/pack/ros/start/vim-ros
+	url = https://github.com/taketwo/vim-ros.git
+[submodule ".vim/pack/wandbox/start/wandbox-vim"]
+	path = .vim/pack/wandbox/start/wandbox-vim
+	url = git@github.com:rhysd/wandbox-vim.git
