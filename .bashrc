@@ -94,7 +94,7 @@ alias l='ls -CF'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+#alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -133,23 +133,12 @@ alias sl='ls'
 alias chrome='google-chrome-stable'
 # set environment variable
 export EDITOR='vi'
-
-# for ros system
-ROS_CATKIN_WS="${HOME}/ws/ros/ws"
-
-ROS_REQUIRE_FILE="${ROS_CATKIN_WS}/devel/setup.bash"
-source /opt/ros/kinetic/setup.bash
-source ${ROS_REQUIRE_FILE}
-alias cdc='cd ${ROS_CATKIN_WS}'
-alias tf2='cd /var/tmp && rosrun tf2_tools view_frames.py && evince frames.pdf; cd -'
-alias cm='cd ${ROS_CATKIN_WS} && source ${ROS_REQUIRE_FILE} && catkin_make; cd -'
-
 # original shell script
 alias srcd='cd `oversrc`'
 
 # compiler setting
-export CXX='clang++'
-export CC='clang'
+#export CXX='clang++'
+#export CC='clang'
 
 [ -r $HOME/.byobu/prompt ] && . $HOME/.byobu/prompt   #byobu-prompt#
 export GPG_TTY=$(tty)
