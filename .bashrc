@@ -142,3 +142,6 @@ alias srcd='cd `oversrc`'
 
 [ -r $HOME/.byobu/prompt ] && . $HOME/.byobu/prompt   #byobu-prompt#
 export GPG_TTY=$(tty)
+
+# ROS setting
+source /opt/ros/melodic/setup.bash

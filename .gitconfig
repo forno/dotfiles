@@ -1,7 +1,7 @@
 [user]
 	email = doi.yusuke806@mail.kyutech.jp
 	name = Doi Yusuke
-	signingkey = A61F7C9512537C7693A7F149343A98945C8D8AED
+	signingkey = BAD11D1F69030520
 [alias]
 	a = add
 	aa = add -A
@@ -46,3 +46,5 @@
 	forceSignAnnotated = true
 [http "https://gopkg.in"]
 	followRedirects = true
+[commit]
+	gpgsign = true
