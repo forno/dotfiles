@@ -130,7 +130,6 @@ alias cdr='cd ~/ws/ros'
 alias cdx='cd ~/ws/prog/xmaho'
 alias ks='ls'
 alias sl='ls'
-alias chrome='google-chrome-stable'
 # set environment variable
 export EDITOR='vi'
 # original shell script
