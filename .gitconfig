@@ -1,7 +1,7 @@
 [user]
 	email = doi.yusuke806@mail.kyutech.jp
 	name = Doi Yusuke
-	signingkey = BAD11D1F69030520
+	signingkey = FA97EA938FC730D0
 [alias]
 	a = add
 	aa = add -A
