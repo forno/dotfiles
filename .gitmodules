@@ -6,4 +6,4 @@
 	url = https://github.com/taketwo/vim-ros.git
 [submodule ".vim/pack/wandbox/start/wandbox-vim"]
 	path = .vim/pack/wandbox/start/wandbox-vim
-	url = git@github.com:rhysd/wandbox-vim.git
+	url = https://github.com/rhysd/wandbox-vim.git
