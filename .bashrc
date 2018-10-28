@@ -144,3 +144,8 @@ export GPG_TTY=$(tty)
 
 # ROS setting
 source /opt/ros/melodic/setup.bash
+
+# PATH
+export PATH=$HOME/.local/bin:$PATH
+
+export VTE_CJK_WIDTH=1
