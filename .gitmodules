@@ -4,3 +4,6 @@
 [submodule ".vim/pack/wandbox/start/wandbox-vim"]
 	path = .vim/pack/wandbox/start/wandbox-vim
 	url = https://github.com/rhysd/wandbox-vim.git
+[submodule ".vim/pack/sounds/start/ttene.nvim"]
+	path = .vim/pack/sounds/start/ttene.nvim
+	url = https://github.com/himanoa/ttene.nvim.git
