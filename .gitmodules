@@ -7,3 +7,6 @@
 [submodule ".vim/pack/sounds/start/ttene.nvim"]
 	path = .vim/pack/sounds/start/ttene.nvim
 	url = https://github.com/himanoa/ttene.nvim.git
+[submodule ".vim/pack/sounds/start/sana-natori-vim"]
+	path = .vim/pack/sounds/start/sana-natori-vim
+	url = https://github.com/forno/sana-natori-vim.git
