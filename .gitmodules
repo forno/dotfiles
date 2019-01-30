@@ -7,9 +7,6 @@
 [submodule ".vim/pack/sounds/start/ttene.nvim"]
 	path = .vim/pack/sounds/start/ttene.nvim
 	url = https://github.com/himanoa/ttene.nvim.git
-[submodule ".vim/pack/sounds/start/sana-natori-vim"]
-	path = .vim/pack/sounds/start/sana-natori-vim
-	url = https://github.com/forno/sana-natori-vim.git
 [submodule ".vim/pack/library/start/vital.vim"]
 	path = .vim/pack/library/start/vital.vim
 	url = git@github.com:vim-jp/vital.vim.git
