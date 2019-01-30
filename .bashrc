@@ -143,7 +143,7 @@ alias srcd='cd `oversrc`'
 export GPG_TTY=$(tty)
 
 # ROS setting
-source /opt/ros/melodic/setup.bash
+#source /opt/ros/melodic/setup.bash
 
 # PATH
 export PATH=$HOME/.local/bin:$PATH
