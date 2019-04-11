@@ -1,7 +1,7 @@
 [user]
-	email = doi.yusuke806@mail.kyutech.jp
-	name = Doi Yusuke
-	signingkey = 4E7C26870688E3534EC6D2AC2DA46D95C69A643D
+	email = forno@xmaho.link
+	name = FORNO
+	signingkey = F011F3A8D1709FBA
 [alias]
 	a = add
 	aa = add -A

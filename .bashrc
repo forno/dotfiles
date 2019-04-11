@@ -116,6 +116,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
+export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
+
 # add my setting
 # some alias
 alias cdf='cd ~/ws/prog/forno'
