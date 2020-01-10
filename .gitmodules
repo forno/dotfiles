@@ -1,3 +1,6 @@
 [submodule ".vim/pack/library/start/vital.vim"]
 	path = .vim/pack/library/start/vital.vim
 	url = git@github.com:vim-jp/vital.vim.git
+[submodule ".vim/pack/latex/start/vimtex"]
+	path = .vim/pack/latex/start/vimtex
+	url = https://github.com/lervag/vimtex.git
