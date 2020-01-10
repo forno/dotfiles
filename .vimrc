@@ -22,3 +22,5 @@ set clipboard&
 set clipboard^=unnamedplus
 "backspace feature
 set backspace=indent,eol,start
+"ftplugin
+filetype plugin on
