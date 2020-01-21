@@ -12,9 +12,6 @@
 	bd = branch -d
 	c = commit -v
 	ca = commit -a -v
-	co = checkout
-	cob = checkout -b
-	cop = checkout -p --
 	d = diff
 	dc = diff --cached
 	dch = diff --check
@@ -28,7 +25,9 @@
 	s = status
 	sh = show
 	st = stash
-	unstage = reset HEAD --
+  r = restore
+  rp = restore -p
+  rs = restore --staged
 [color]
 	ui = auto
 [core]
