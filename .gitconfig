@@ -25,9 +25,9 @@
 	s = status
 	sh = show
 	st = stash
-  r = restore
-  rp = restore -p
-  rs = restore --staged
+	r = restore
+	rp = restore -p
+	rs = restore --staged
 [color]
 	ui = auto
 [core]
