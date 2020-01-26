@@ -4,3 +4,12 @@
 [submodule ".vim/pack/latex/start/vimtex"]
 	path = .vim/pack/latex/start/vimtex
 	url = https://github.com/lervag/vimtex.git
+[submodule ".vim/pack/git/start/vim-fugitive"]
+	path = .vim/pack/git/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule ".vim/pack/git/start/vim-gitgutter"]
+	path = .vim/pack/git/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule ".vim/pack/git/start/vim-rhubarb"]
+	path = .vim/pack/git/start/vim-rhubarb
+	url = https://github.com/tpope/vim-rhubarb.git

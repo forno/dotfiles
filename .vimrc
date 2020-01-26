@@ -24,3 +24,13 @@ set clipboard^=unnamedplus
 set backspace=indent,eol,start
 "ftplugin
 filetype plugin on
+"c or cpp language
+let c_space_errors=1
+let c_no_bracket_error=1
+let c_curly_error=1
+let g:load_doxygen_syntax=1
+let doxygen_javadoc_autobrief=0
+"fold
+set foldmethod=syntax
+"git
+set updatetime=100
