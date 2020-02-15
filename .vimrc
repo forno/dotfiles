@@ -12,9 +12,9 @@ set expandtab
 if expand("%:r") == 'Makefile'
   set noexpandtab
 endif
-"auto indent
-set autoindent
+"indent settings
 set smartindent
+filetype indent on
 "paste setting
 set pastetoggle=<F2>
 "clipboard collaboration
