@@ -151,3 +151,7 @@ export GPG_TTY=$(tty)
 export PATH=$HOME/.local/bin:$PATH
 
 export VTE_CJK_WIDTH=1
+source ~/.git-completion.bash
+
+eval "$(hub alias -s)"
+source ~/.hub-completion.bash
