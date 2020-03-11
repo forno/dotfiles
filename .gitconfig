@@ -25,6 +25,7 @@
 	s = status
 	sh = show
 	st = stash
+	sw = switch
 	r = restore
 	rp = restore -p
 	rs = restore --staged
