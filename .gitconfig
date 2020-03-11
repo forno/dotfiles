@@ -33,6 +33,7 @@
 [core]
 	editor = vi
 	autocrlf = input
+	ignorecase = true
 [merge]
 	ff = false
 [pull]
