@@ -155,3 +155,11 @@ export VTE_CJK_WIDTH=1
 
 # Haskell
 eval "$(stack --bash-completion-script stack)"
+
+# prompt
+function _update_ps1() {
+  PS1="$($GOPATH/bin/powerline-go -error $?)"
+}
+if [ "$TERM" != "linux" ] && [ -f "$GOPATH/bin/powerline-go" ]; then
+  PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+fi
