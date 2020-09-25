@@ -148,7 +148,10 @@ export GPG_TTY=$(tty)
 #source /opt/ros/melodic/setup.bash
 
 # PATH
-export PATH=$HOME/.local/bin:$PATH
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$HOME/.local/bin:$PATH
 
 export VTE_CJK_WIDTH=1
-source ~/.git-completion.bash
+
+# Haskell
+eval "$(stack --bash-completion-script stack)"
