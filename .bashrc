@@ -28,7 +28,7 @@ shopt -s checkwinsize
 #shopt -s globstar
 
 # make less more friendly for non-text input files, see lesspipe(1)
-[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+#[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 # set variable identifying the chroot you work in (used in the prompt below)
 if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
@@ -79,22 +79,18 @@ if [ -x /usr/bin/dircolors ]; then
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
 
-    alias grep='grep --color=auto'
-    alias fgrep='fgrep --color=auto'
-    alias egrep='egrep --color=auto'
+    #alias grep='grep --color=auto'
+    #alias fgrep='fgrep --color=auto'
+    #alias egrep='egrep --color=auto'
 fi
 
 # colored GCC warnings and errors
-export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-
-# Add an "alert" alias for long running commands.  Use like so:
-#   sleep 10; alert
-#alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+#alias ll='ls -l'
+#alias la='ls -A'
+#alias l='ls -CF'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -114,52 +110,4 @@ if ! shopt -oq posix; then
   elif [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
   fi
-fi
-
-export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
-
-# add my setting
-# some alias
-alias cdf='cd ~/ws/prog/forno'
-alias cdw='cd ~/ws'
-alias cdi='cd ~/ws/install'
-alias cdm='cd ~/ws/memo'
-alias cdp='cd ~/ws/prog'
-alias cdl='cd ~/ws/prog/xmaho'
-alias cds='cd ~/ws/website'
-alias cdt='cd ~/ws/prog/test'
-alias cdr='cd ~/ws/report'
-alias cdx='cd ~/ws/prog/xmaho'
-alias ks='ls'
-alias sl='ls'
-# set environment variable
-export EDITOR='vi'
-# original shell script
-alias srcd='cd `oversrc`'
-
-# compiler setting
-#export CXX='clang++'
-#export CC='clang'
-
-[ -r $HOME/.byobu/prompt ] && . $HOME/.byobu/prompt   #byobu-prompt#
-export GPG_TTY=$(tty)
-
-# ROS setting
-#source /opt/ros/melodic/setup.bash
-
-# PATH
-export GOPATH=$HOME/go
-export PATH=$GOPATH/bin:$HOME/.local/bin:$PATH
-
-export VTE_CJK_WIDTH=1
-
-# Haskell
-eval "$(stack --bash-completion-script stack)"
-
-# prompt
-function _update_ps1() {
-  PS1="$($GOPATH/bin/powerline-go -error $?)"
-}
-if [ "$TERM" != "linux" ] && [ -f "$GOPATH/bin/powerline-go" ]; then
-  PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 fi
