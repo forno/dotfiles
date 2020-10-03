@@ -122,3 +122,6 @@ function _update_ps1() {
 if [ "$TERM" != "linux" ] && [ -f "$GOPATH/bin/powerline-go" ]; then
   PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 fi
+
+# gpg passphrase prompt
+GPG_TTY=$(tty)
