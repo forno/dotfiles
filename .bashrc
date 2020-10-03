@@ -124,4 +124,4 @@ if [ "$TERM" != "linux" ] && [ -f "$GOPATH/bin/powerline-go" ]; then
 fi
 
 # gpg passphrase prompt
-GPG_TTY=$(tty)
+export GPG_TTY=$(tty)
