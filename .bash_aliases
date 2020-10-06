@@ -2,9 +2,6 @@
 alias aws='docker run --rm -it -v aws:/root/.aws amazon/aws-cli'
 alias mssh='docker run --rm -it -v aws:/root/.aws forno/ec2instanceconnectcli'
 
-# Golang
-alias go='docker run -it --rm -v ${PWD}:/data:ro -w /data golang go'
-
 # node
 alias lb4='docker run -it --rm -v ${PWD}:/data -w /data -u $(id -u):$(id -g) forno/loopback-cli'
 alias node='docker run -it --rm -v ${PWD}:/data:ro -w /data node'
