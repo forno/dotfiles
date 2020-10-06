@@ -4,7 +4,7 @@ alias mssh='docker run --rm -it -v aws:/root/.aws forno/ec2instanceconnectcli'
 
 # node
 alias lb4='docker run -it --rm -v ${PWD}:/data -w /data -u $(id -u):$(id -g) forno/loopback-cli'
-alias node='docker run -it --rm -v ${PWD}:/data -w /data node'
+alias node='docker run -it --rm -v ${PWD}:/data:ro -w /data node'
 alias npm='docker run -it --rm -v ${PWD}:/data -w /data -u $(id -u):$(id -g) node npm'
 alias npx='docker run -it --rm -v ${PWD}:/data -w /data -u $(id -u):$(id -g) node npx'
 alias yarn='docker run -it --rm -v ${PWD}:/data -w /data -u $(id -u):$(id -g) node yarn'
@@ -13,4 +13,4 @@ alias yarn='docker run -it --rm -v ${PWD}:/data -w /data -u $(id -u):$(id -g) no
 alias openapi-generator-cli='docker run --rm -v ${PWD}:/data -w /data -u $(id -u):$(id -g) openapitools/openapi-generator-cli'
 
 # yaml
-alias yq='docker run --rm -i -v ${PWD}:/workdir mikefarah/yq yq'
+alias yq='docker run --rm -i -v ${PWD}:/workdir:ro mikefarah/yq yq'
