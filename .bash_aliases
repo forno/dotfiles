@@ -3,6 +3,7 @@ alias aws='docker run --rm -it -v aws:/root/.aws amazon/aws-cli'
 alias mssh='docker run --rm -it -v aws:/root/.aws forno/ec2instanceconnectcli'
 
 # node
+alias gatsby='docker run -it --rm -p 8000:8000 -v ${PWD}:/data -w /data -u $(id -u):$(id -g) node npx gatsby'
 alias lb4='docker run -it --rm -v ${PWD}:/data -w /data -u $(id -u):$(id -g) forno/loopback-cli'
 alias node='docker run -it --rm -v ${PWD}:/data:ro -w /data node'
 alias npm='docker run -it --rm -v ${PWD}:/data -w /data -u $(id -u):$(id -g) node npm'
