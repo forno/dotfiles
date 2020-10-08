@@ -125,3 +125,7 @@ fi
 
 # gpg passphrase prompt
 export GPG_TTY=$(tty)
+
+# export uid and gid
+export UID=${UID} 2> /dev/null # shell variable UID is readonly, then echo error
+export GID=${GID}
