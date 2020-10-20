@@ -8,7 +8,6 @@ set noerrorbells
 " custom settings
 set number
 set cursorline
-"
 "tab view setting
 set tabstop=2
 set shiftwidth=2
@@ -39,3 +38,5 @@ let g:load_doxygen_syntax=1
 let doxygen_javadoc_autobrief=0
 "fold
 set foldmethod=syntax
+" jj to esc
+inoremap <silent> jj <ESC>
