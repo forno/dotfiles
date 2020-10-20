@@ -10,8 +10,8 @@
 	b = branch
 	ba = branch -a
 	bd = branch -d
-	c = commit -v
-	ca = commit -a -v
+	c = commit -s -v
+	ca = commit -a -s -v
 	d = diff
 	dc = diff --cached
 	dch = diff --check
