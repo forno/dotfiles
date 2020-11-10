@@ -35,10 +35,6 @@
 	editor = vi
 	autocrlf = input
 	ignorecase = true
-[merge]
-	ff = false
-[pull]
-	rebase = true
 [push]
 	default = simple
 	gpgSign = if-asked
