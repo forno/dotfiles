@@ -114,7 +114,7 @@ fi
 
 # path
 GOPATH=$HOME/go
-export PATH=$HOME/.local/bin:$PATH
+export PATH=$GOPATH/bin:$HOME/.local/bin:$PATH
 
 # powerline-go
 function _update_ps1() {
