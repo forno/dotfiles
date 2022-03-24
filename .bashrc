@@ -130,3 +130,6 @@ export GPG_TTY=$(tty)
 # export uid and gid
 export UID=${UID} 2> /dev/null # shell variable UID is readonly, then echo error
 export GID=${GID}
+
+export PATH=/home/forno/.pyenv/versions/3.7.2/bin:$PATH
+export PATH="/home/forno/.ebcli-virtual-env/executables:$PATH"
