@@ -133,3 +133,8 @@ export GID=${GID}
 
 export PATH=/home/forno/.pyenv/versions/3.7.2/bin:$PATH
 export PATH="/home/forno/.ebcli-virtual-env/executables:$PATH"
+export PYENV_ROOT="${HOME}/.pyenv"
+export PATH="${PYENV_ROOT}/bin:${PATH}"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+. "$HOME/.cargo/env"
