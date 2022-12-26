@@ -4,7 +4,7 @@ alias mssh='docker run --rm -it -v aws:/root/.aws forno/ec2instanceconnectcli'
 
 # node
 alias gatsby='npx gatsby'
-alias lb4='npx lb4'
+alias lb4='npx @loopback/cli'
 alias vue='npx @vue/cli@next'
 
 # openapi3
