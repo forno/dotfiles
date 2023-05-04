@@ -138,3 +138,11 @@ export PATH="${PYENV_ROOT}/bin:${PATH}"
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 . "$HOME/.cargo/env"
+
+# pnpm
+export PNPM_HOME="/home/forno/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
