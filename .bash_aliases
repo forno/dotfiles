@@ -1,6 +1,7 @@
 # AWS
 alias aws='docker run --rm -it -v ~/.aws:/root/.aws -v $(pwd):/aws amazon/aws-cli'
 alias mssh='docker run --rm -it -v aws:/root/.aws forno/ec2instanceconnectcli'
+alias amplify='npx @aws-amplify/cli'
 
 # node
 alias gatsby='npx gatsby'

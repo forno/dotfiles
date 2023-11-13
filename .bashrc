@@ -131,10 +131,14 @@ export GPG_TTY=$(tty)
 export UID=${UID} 2> /dev/null # shell variable UID is readonly, then echo error
 export GID=${GID}
 
-export PATH=/home/forno/.pyenv/versions/3.7.2/bin:$PATH
 export PATH="/home/forno/.ebcli-virtual-env/executables:$PATH"
-export PYENV_ROOT="${HOME}/.pyenv"
-export PATH="${PYENV_ROOT}/bin:${PATH}"
-eval "$(pyenv init --path)"
-eval "$(pyenv init -)"
 . "$HOME/.cargo/env"
+
+# pnpm
+export PNPM_HOME="/home/forno/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+[ -f "/home/forno/.ghcup/env" ] && source "/home/forno/.ghcup/env" # ghcup-env
