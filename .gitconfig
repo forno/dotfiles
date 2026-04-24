@@ -1,7 +1,48 @@
+[column]
+	ui = auto
+[branch]
+	sort = -committerdate
+[tag]
+	forceSignAnnotated = true
+	sort = version:refname
+[init]
+	defaultBranch = main
+[diff]
+	algorithm = histogram
+	colorMoved = true
+	mnemonicPrefix = true
+	renames = true
+[push]
+	default = simple
+	autoSetupRemote = true
+	followTags = true
+	gpgSign = if-asked
+[fetch]
+	prune = true
+	pruneTags = true
+	all = true
+[help]
+	autocorrect = prompt
+[rerere]
+	enabled = true
+	autoupdate = true
+[commit]
+	verbose = true
+	gpgsign = true
+[core]
+  editor = vi
+	autocrlf = input
+	ignorecase = true
+[rebase]
+	autoSquash = true
+	autoStash = true
+	updateRefs = true
+[merge]
+	conflictstyle = zdiff3
 [user]
 	email = forno@xmaho.link
 	name = FORNO
-	signingkey = F011F3A8D1709FBA
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAII/9l1T2w+di4U1kHrbFLDnyOa+K31mxOvqWi3u4BhFL
 [alias]
 	a = add
 	aa = add -A
@@ -31,35 +72,22 @@
 	rs = restore --staged
 [color]
 	ui = auto
-[core]
-	editor = vi
-	autocrlf = input
-	ignorecase = true
-[push]
-	default = simple
-	gpgSign = if-asked
-[rerere]
-	enabled = true
-[tag]
-	forceSignAnnotated = true
 [http "https://gopkg.in"]
 	followRedirects = true
-[commit]
-	gpgsign = true
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[fetch]
-	prune = true
-[init]
-	defaultBranch = main
 [pull]
 	rebase = false
 [credential "https://github.com"]
-	helper = 
+	helper =
 	helper = !/usr/bin/gh auth git-credential
 [credential "https://gist.github.com"]
-	helper = 
+	helper =
 	helper = !/usr/bin/gh auth git-credential
+[gpg]
+  format = ssh
+[gpg "ssh"]
+	program = "/mnt/c/Users/forno/AppData/Local/Microsoft/WindowsApps/op-ssh-sign-wsl.exe"

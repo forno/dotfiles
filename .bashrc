@@ -132,7 +132,6 @@ export UID=${UID} 2> /dev/null # shell variable UID is readonly, then echo error
 export GID=${GID}
 
 export PATH="/home/forno/.ebcli-virtual-env/executables:$PATH"
-. "$HOME/.cargo/env"
 
 # pnpm
 export PNPM_HOME="/home/forno/.local/share/pnpm"
@@ -142,3 +141,18 @@ case ":$PATH:" in
 esac
 # pnpm end
 [ -f "/home/forno/.ghcup/env" ] && source "/home/forno/.ghcup/env" # ghcup-env
+
+export PYENV_ROOT="${HOME}/.pyenv"
+export PATH="${PYENV_ROOT}/bin:${PATH}"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH=$BUN_INSTALL/bin:$PATH
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export PATH="/home/forno/.config/herd-lite/bin:$PATH"
+export PHP_INI_SCAN_DIR="/home/forno/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
