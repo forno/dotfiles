@@ -141,8 +141,8 @@ export PATH="/home/forno/.ebcli-virtual-env/executables:$PATH"
 # pnpm
 export PNPM_HOME="/home/forno/.local/share/pnpm"
 case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
+  *":$PNPM_HOME/bin:"*) ;;
+  *) export PATH="$PNPM_HOME/bin:$PATH" ;;
 esac
 # pnpm end
 [ -f "/home/forno/.ghcup/env" ] && source "/home/forno/.ghcup/env" # ghcup-env
